@@ -1,0 +1,20 @@
+PS C:\Users\User\mcino-Introduction-to-Git-and-GitHub> git branch -a -vv
+* bug-fix-revert                eeba6d0 [origin/bug-fix-revert] Fix copyright year typo
+  bug-fix-typo                  eeba6d0 [origin/bug-fix-typo] Fix copyright year typo
+  main                          eeba6d0 [origin/main] Fix copyright year typo
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert eeba6d0 Fix copyright year typo
+  remotes/origin/bug-fix-typo   eeba6d0 Fix copyright year typo
+  remotes/origin/main           eeba6d0 Fix copyright year typo
+PS C:\Users\User\mcino-Introduction-to-Git-and-GitHub> git status
+On branch bug-fix-revert
+Your branch is up to date with 'origin/bug-fix-revert'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bug-fix-revert
+        merge_branches
